@@ -1,0 +1,96 @@
+.recipe-view {
+  width: 35%;
+  margin: 0 auto;
+  margin-top: 150px;
+
+  .recipe-header {
+    display: flex;
+    justify-content: space-between;
+    .recipe-view-img-holder {
+      display: flex;
+      .vert-title {
+        writing-mode: sideways-lr;
+        text-align: center;
+        font-size: 25px;
+        font-family: "Lato-Black";
+      }
+
+      .recipe-view-img {
+        width: 468px;
+        height: 421px;
+        background-color: lightgray;
+      }
+    }
+    .recipe-view-text-holder {
+      .rvt-title {
+        font-size: 25px;
+        font-family: "Lato-Black";
+      }
+      h1 {
+        font-size: 20px;
+        font-family: "Lato-Black";
+      }
+      p {
+        font-size: 20px;
+        font-family: "Caveat-Regular";
+      }
+    }
+  }
+
+  .recipe-data-holder {
+    .ingredients-holder {
+      margin-top: 40px;
+
+      h1 {
+        font-size: 25px;
+        font-family: "Lato-Black";
+        margin-bottom: 20px;
+      }
+
+      ul {
+        list-style-type: disc;
+        padding-left: 20px;
+
+        li {
+          font-size: 20px;
+          font-family: "Caveat-Regular";
+          margin-bottom: 10px;
+        }
+      }
+    }
+
+    .instructions-holder {
+      margin-top: 40px;
+
+      h1 {
+        font-size: 25px;
+        font-family: "Lato-Black";
+        margin-bottom: 20px;
+      }
+
+      ol {
+        list-style-type: decimal;
+        padding-left: 20px;
+
+        li {
+          font-size: 20px;
+          font-family: "Caveat-Regular";
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+
+  .edit-recipe-btn {
+    width: 127px;
+    height: 42px;
+    background-color: #ffd972;
+    border-radius: 26px;
+    padding: 8px 24px;
+
+    p {
+      font-size: 20px;
+      font-family: "Caveat-Regular";
+    }
+  }
+}

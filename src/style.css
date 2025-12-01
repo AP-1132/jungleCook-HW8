@@ -551,3 +551,343 @@ footer .footer-icon-holder .instagram {
     margin-bottom: -10px;
   }
 }
+.recipes-background {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  background-color: #a7e8bd;
+  background-image: linear-gradient(rgba(167, 232, 189, 0.6)), url(/images/recipe-hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.recipes-background .recipes-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+.recipes-background .recipes-content .browse-title {
+  font-size: 25px;
+  width: 70%;
+  font-family: "Caveat-Bold";
+}
+.recipes-background .recipes-content .recipes-holder {
+  height: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.recipes-background .recipes-content .recipes-holder .recipe {
+  width: 524px;
+  height: 263px;
+  display: flex;
+  justify-content: space-between;
+}
+.recipes-background .recipes-content .recipes-holder .recipe .recipe-img-pizza {
+  width: 300px;
+  height: 100%;
+  background-color: lightgray;
+  background-image: url(/images/recipe-pizza.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 24px;
+}
+.recipes-background .recipes-content .recipes-holder .recipe .recipe-img-burger {
+  width: 300px;
+  height: 100%;
+  background-color: lightgray;
+  background-image: url(/images/recipe-burger.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 24px;
+}
+.recipes-background .recipes-content .recipes-holder .recipe .recipe-img-biryani {
+  width: 300px;
+  height: 100%;
+  background-color: lightgray;
+  background-image: url(/images/recipe-pilaf.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 24px;
+}
+.recipes-background .recipes-content .recipes-holder .recipe .recipe-img-chowmein {
+  width: 300px;
+  height: 100%;
+  background-color: lightgray;
+  background-image: url(/images/recipe-chowmein.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 24px;
+}
+.recipes-background .recipes-content .recipes-holder .recipe .recipe-text-content {
+  width: 224px;
+  height: 100%;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 40px 45px;
+}
+.recipes-background .recipes-content .recipes-holder .recipe .recipe-text-content h1 {
+  width: 120px;
+  margin: 0 auto;
+  font-size: 15px;
+  font-family: "Lato-Black";
+  border-bottom: 3px solid #000;
+}
+.recipes-background .recipes-content .recipes-holder .recipe .recipe-text-content .recipe-desc {
+  font-family: "Lato-Regular";
+  font-size: 9px;
+}
+.recipes-background .recipes-content .recipes-holder .recipe .recipe-text-content .time p {
+  font-family: "Lato-Regular";
+  font-size: 10px;
+}
+.recipes-background .recipes-content .recipes-holder .recipe .recipe-text-content .servings p {
+  font-family: "Lato-Regular";
+  font-size: 10px;
+}
+
+.create-recipe {
+  max-width: 980px;
+  margin: 0 auto;
+  margin-top: 220px;
+}
+.create-recipe h1 {
+  font-size: 25px;
+  font-family: "Caveat-Bold";
+}
+.create-recipe form input {
+  margin-bottom: 50px;
+  width: 100%;
+  border: none;
+  border-bottom: 3px solid #000;
+  outline: none;
+  background-color: transparent;
+}
+.create-recipe form h3 {
+  margin-top: 80px;
+  font-size: 20px;
+  font-family: "Lato-Black";
+}
+.create-recipe form .add-ingred,
+.create-recipe form .add-instruc {
+  display: flex;
+  flex-direction: column;
+}
+.create-recipe form .add-ingred-btn,
+.create-recipe form .add-instruc-btn {
+  width: 38px;
+  height: 38px;
+  background-color: #efa7a7;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 28px;
+  margin: -100px 0 40px auto;
+}
+.create-recipe form .submit-btn {
+  display: block;
+  border: none;
+  background-color: #efa7a7;
+  width: 422px;
+  height: 52px;
+  margin: 0 auto;
+  border-radius: 26px;
+  cursor: pointer;
+  font-size: 25px;
+  font-family: "Caveat-Regular";
+}
+
+.edit-recipe {
+  max-width: 980px;
+  margin: 0 auto;
+  margin-top: 220px;
+}
+.edit-recipe h1 {
+  font-size: 25px;
+  font-family: "Caveat-Bold";
+}
+.edit-recipe form input {
+  margin-bottom: 50px;
+  width: 100%;
+  border: none;
+  border-bottom: 3px solid #000;
+  outline: none;
+  background-color: transparent;
+}
+.edit-recipe form h3 {
+  margin-top: 80px;
+  font-size: 20px;
+  font-family: "Lato-Black";
+}
+.edit-recipe form .add-ingred,
+.edit-recipe form .add-instruc {
+  display: flex;
+  flex-direction: column;
+}
+.edit-recipe form .add-ingred-btn,
+.edit-recipe form .add-instruc-btn {
+  width: 38px;
+  height: 38px;
+  background-color: #efa7a7;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 28px;
+  margin: -100px 0 40px auto;
+}
+.edit-recipe form .submit-btn {
+  display: block;
+  border: none;
+  background-color: #efa7a7;
+  width: 422px;
+  height: 52px;
+  margin: 0 auto;
+  border-radius: 26px;
+  cursor: pointer;
+  font-size: 25px;
+  font-family: "Caveat-Regular";
+}
+
+.recipe-view {
+  width: 35%;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+.recipe-view .recipe-header {
+  display: flex;
+  justify-content: space-between;
+}
+.recipe-view .recipe-header .recipe-view-img-holder {
+  display: flex;
+}
+.recipe-view .recipe-header .recipe-view-img-holder .vert-title {
+  writing-mode: sideways-lr;
+  text-align: center;
+  font-size: 25px;
+  font-family: "Lato-Black";
+}
+.recipe-view .recipe-header .recipe-view-img-holder .recipe-view-img {
+  width: 468px;
+  height: 421px;
+  background-color: lightgray;
+}
+.recipe-view .recipe-header .recipe-view-text-holder .rvt-title {
+  font-size: 25px;
+  font-family: "Lato-Black";
+}
+.recipe-view .recipe-header .recipe-view-text-holder h1 {
+  font-size: 20px;
+  font-family: "Lato-Black";
+}
+.recipe-view .recipe-header .recipe-view-text-holder p {
+  font-size: 20px;
+  font-family: "Caveat-Regular";
+}
+.recipe-view .recipe-data-holder .ingredients-holder {
+  margin-top: 40px;
+}
+.recipe-view .recipe-data-holder .ingredients-holder h1 {
+  font-size: 25px;
+  font-family: "Lato-Black";
+  margin-bottom: 20px;
+}
+.recipe-view .recipe-data-holder .ingredients-holder ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+.recipe-view .recipe-data-holder .ingredients-holder ul li {
+  font-size: 20px;
+  font-family: "Caveat-Regular";
+  margin-bottom: 10px;
+}
+.recipe-view .recipe-data-holder .instructions-holder {
+  margin-top: 40px;
+}
+.recipe-view .recipe-data-holder .instructions-holder h1 {
+  font-size: 25px;
+  font-family: "Lato-Black";
+  margin-bottom: 20px;
+}
+.recipe-view .recipe-data-holder .instructions-holder ol {
+  list-style-type: decimal;
+  padding-left: 20px;
+}
+.recipe-view .recipe-data-holder .instructions-holder ol li {
+  font-size: 20px;
+  font-family: "Caveat-Regular";
+  margin-bottom: 10px;
+}
+.recipe-view .edit-recipe-btn {
+  width: 127px;
+  height: 42px;
+  background-color: #ffd972;
+  border-radius: 26px;
+  padding: 8px 24px;
+}
+.recipe-view .edit-recipe-btn p {
+  font-size: 20px;
+  font-family: "Caveat-Regular";
+}
+
+.your-recipe-holder .recipe-img-pizza .view-recipe-btn {
+  width: 127px;
+  height: 42px;
+  background-color: #ffd972;
+  border-radius: 26px;
+  font-size: 20px;
+  font-family: "Caveat-Regular";
+  text-align: center;
+  padding: 8px 24px;
+  margin-left: 66px;
+  margin-top: 110px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+.your-recipe-holder .btns-holder {
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+.your-recipe-holder .btns-holder .edit-recipe-btn {
+  width: 127px;
+  height: 42px;
+  background-color: #ffd972;
+  border-radius: 26px;
+  font-size: 20px;
+  font-family: "Caveat-Regular";
+  text-align: center;
+  padding: 8px 24px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+.your-recipe-holder .btns-holder .delete-recipe-btn {
+  width: 127px;
+  height: 42px;
+  background-color: #ffd972;
+  border-radius: 26px;
+  font-size: 20px;
+  font-family: "Caveat-Regular";
+  text-align: center;
+  padding: 8px 24px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}

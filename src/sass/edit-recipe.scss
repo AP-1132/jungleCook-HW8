@@ -1,0 +1,62 @@
+.edit-recipe {
+  max-width: 980px;
+  margin: 0 auto;
+  margin-top: 220px;
+
+  h1 {
+    font-size: 25px;
+    font-family: "Caveat-Bold";
+  }
+
+  form {
+    input {
+      margin-bottom: 50px;
+      width: 100%;
+      border: none;
+      border-bottom: 3px solid #000;
+      outline: none;
+      background-color: transparent;
+    }
+
+    h3 {
+      margin-top: 80px;
+      font-size: 20px;
+      font-family: "Lato-Black";
+    }
+
+    .add-ingred,
+    .add-instruc {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .add-ingred-btn,
+    .add-instruc-btn {
+      width: 38px;
+      height: 38px;
+      background-color: #efa7a7;
+      color: #fff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-size: 28px;
+
+      margin: -100px 0 40px auto;
+    }
+
+    .submit-btn {
+      display: block;
+      border: none;
+      background-color: #efa7a7;
+      width: 422px;
+      height: 52px;
+      margin: 0 auto;
+      border-radius: 26px;
+      cursor: pointer;
+      font-size: 25px;
+      font-family: "Caveat-Regular";
+    }
+  }
+}
